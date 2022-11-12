@@ -102,13 +102,27 @@ html {
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
-  color: #fff;
+  color: darkgray;
 }
-
+header {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  color: forestgreen;
+  font-family: "Roboto", sans-serif;
+}
+main {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  font-family: "Roboto", sans-serif;
+  color: #555;
+  border-bottom: 1px solid #555;
+}
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
@@ -116,13 +130,23 @@ body {
   justify-content: space-between;
   flex-flow: row wrap;
   align-items: center;
+  color: #555;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
-
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: center;
+  padding-top: 20px;
+  border-top: 1px solid #555;
+}
 .div-1,
 .div-2,
 .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+
   line-height: 1.5em;
   font-size: 1em;
 
